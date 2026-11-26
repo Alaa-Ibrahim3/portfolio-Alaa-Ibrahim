@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alaa Ibrahim | Machine Learning Engineer</title>
+
+  <!-- Meta & Open Graph Tags -->
+  <meta name="description"
+    content="Where Medical Informatics meets machine learning: turning health and business data into predictions you can understand and use.">
+  <meta name="author" content="Alaa Ibrahim">
+  <meta property="og:title" content="Alaa Ibrahim | Machine Learning Engineer">
+  <meta property="og:description"
+    content="Where Medical Informatics meets machine learning: turning health and business data into predictions you can understand and use.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/photo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alaa Ibrahim | Machine Learning Engineer">
+  <meta name="twitter:description"
+    content="Where Medical Informatics meets machine learning: turning health and business data into predictions you can understand and use.">
+
+  <!-- Favicon -->
+  <a href="#home" class="brand" aria-label="Alaa Ibrahim - Home"
+    style="display:flex; align-items:center; gap:10px; text-decoration:none; flex-shrink:0;">
+    <img src="assets/logo.png" alt="" class="brand-logo" height="40" style="height:40px; width:auto; display:block;"
+      onerror="this.onerror=null; this.style.display='none';">
+    <span class="brand-name"
+      style="font-family:'Poppins',sans-serif; font-weight:600; font-size:1.2rem; color:#B5526B; white-space:nowrap;">
+
+    </span>
+  </a>
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="alternate icon" type="image/svg+xml" href="assets/logo.svg">
+
+  <!-- Google Fonts: Cairo (Arabic), Poppins (headings) & Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Devicon Icons (Programming & Tools) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="brand" aria-label="Alaa Ibrahim - Home">
+        <img src="assets/logo.png" alt="Alaa Ibrahim Logo" class="brand-logo" height="40"
+          onerror="this.onerror=null; this.src='assets/logo.svg';">
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-i18n="nav.about">About</a></li>
+          <li><a href="#education" class="nav-link" data-i18n="nav.education">Education</a></li>
+          <li><a href="#certificates" class="nav-link" data-i18n="nav.credentials">Credentials</a></li>
+          <li><a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a></li>
+          <li><a href="#experience" class="nav-link" data-i18n="nav.experience">Experience</a></li>
+          <li><a href="#services" class="nav-link" data-i18n="nav.services">Services</a></li>
+          <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#achievements" class="nav-link" data-i18n="nav.achievements">Achievements</a></li>
+          <li><a href="#testimonials" class="nav-link" data-i18n="nav.testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions: Language Switcher, Theme Toggle, CTA, and Mobile Hamburger -->
+      <div class="nav-actions">
+        <!-- Language Switcher (EN / AR) -->
+        <button id="lang-toggle" class="btn-lang-toggle" aria-label="Switch language to Arabic"
+          title="تغيير اللغة إلى العربية">
+          <span class="lang-text" id="lang-text">AR</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle" class="btn-theme-toggle" aria-label="Switch to dark theme" title="Toggle color theme">
+          <svg class="theme-icon sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary nav-cta" data-i18n="nav.cta">Let's Collaborate</a>
+
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false"
+          aria-controls="nav-menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+
+    <!-- 1) HOME (HERO) -->
+    <section id="home" class="section hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-greeting" data-i18n="hero.greeting">Hello, I&apos;m</p>
+          <h1 class="hero-title" data-i18n="hero.title">Alaa Ibrahim</h1>
+          <h2 class="hero-subtitle" data-i18n="hero.subtitle">Machine Learning Engineer</h2>
+
+          <p class="hero-tagline" data-i18n="hero.tagline">
+            Where Medical Informatics meets machine learning: turning health and business data into predictions you can
+            understand and use.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary" data-i18n="hero.viewWork">View Work</a>
+            <a href="assets/cv/Alaa_Ibrahim_CV.pdf" class="btn btn-secondary" download="Alaa_Ibrahim_CV.pdf"
+              target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span data-i18n="hero.downloadCV">Download CV</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="photo-frame">
+            <img src="assets/photo.png" alt="Portrait of Alaa Ibrahim" class="hero-photo" width="380" height="460">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2) ABOUT -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="about.label">About Me</span>
+          <h2 class="section-title" data-i18n="about.title">Where Medicine Meets Data</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-text" data-i18n="about.text">
+              I'm a Medical Informatics student who builds machine learning models from health and business data.
+              Studying how medical data is structured helps me understand clinic and health datasets, and I apply the
+              same workflow to business and research data: cleaning and exploring the data, training and comparing
+              models, and explaining the results in plain language. I agree on a clear scope before I start, deliver on
+              the date we set, and come back to you early if a problem comes up. I work in Arabic and English.
+            </p>
+
+            <div class="edge-callout">
+              <span class="edge-title" data-i18n="about.edgeTitle">My Edge:</span>
+              <p class="edge-desc" data-i18n="about.edgeDesc">I pair a Medical Informatics background with hands-on
+                machine learning training from IBM and NTI.</p>
+            </div>
+          </div>
+
+          <div class="about-sidebar">
+            <div class="card info-card">
+              <h3 class="info-name">Alaa Ibrahim</h3>
+              <p class="info-location">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span data-i18n="about.location">10th of Ramadan, Sharqia, Egypt</span>
+              </p>
+              <div class="tag-list">
+                <span class="tag">Zagazig National University</span>
+                <span class="tag">Medical Informatics</span>
+                <span class="tag">Python</span>
+                <span class="tag">Machine Learning</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3) EDUCATION -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="edu.label">Academic Path</span>
+          <h2 class="section-title" data-i18n="edu.title">Education</h2>
+        </div>
+
+        <div class="education-card card">
+          <div class="education-header">
+            <div class="edu-logo-wrapper">
+              <img src="assets/logos/university.png" alt="Zagazig National University Logo" class="edu-logo" width="64"
+                height="64">
+            </div>
+            <div class="edu-details">
+              <h3 class="edu-degree" data-i18n="edu.degree">Bachelor's Degree, Faculty of Computers and Information</h3>
+              <p class="edu-major" data-i18n="edu.major">Major: Medical Informatics</p>
+              <p class="edu-institution" data-i18n="edu.institution">Zagazig National University</p>
+              <span class="edu-period" data-i18n="edu.period">2024 - 2028</span>
+            </div>
+          </div>
+
+          <div class="edu-coursework">
+            <h4 class="coursework-title" data-i18n="edu.courseworkTitle">Core Coursework</h4>
+            <div class="tag-list">
+              <span class="tag">C++</span>
+              <span class="tag">OOP</span>
+              <span class="tag">Databases</span>
+              <span class="tag">SQL</span>
+              <span class="tag">AI</span>
+              <span class="tag">Python</span>
+              <span class="tag">Machine Learning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4) CREDENTIALS (id "certificates") -->
+    <section id="certificates" class="section credentials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="cred.label">Verification</span>
+          <h2 class="section-title" data-i18n="cred.title">Credentials</h2>
+        </div>
+
+        <div class="credentials-grid">
+          <!-- Certificate Card 1: IBM AI Fundamentals -->
+          <div class="card credential-card">
+            <div class="credential-img-wrapper">
+              <button class="certificate-trigger"
+                aria-label="View full certificate: Artificial Intelligence Fundamentals"
+                data-full-img="assets/certificates/ibm-ai-fundamentals.jpg"
+                data-caption="Artificial Intelligence Fundamentals - IBM">
+                <img src="assets/certificates/ibm-ai-fundamentals.jpg"
+                  alt="Artificial Intelligence Fundamentals Certificate" class="credential-img" loading="lazy">
+                <span class="zoom-badge" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span data-i18n="cred.viewCert">Click to view</span>
+                </span>
+              </button>
+            </div>
+            <div class="credential-info">
+              <div class="credential-provider-row">
+                <span class="credential-provider" data-i18n="cred.providerIBM">Provider: IBM</span>
+              </div>
+              <h3 class="credential-title" data-i18n="cred.ibmTitle">Artificial Intelligence Fundamentals</h3>
+              <p class="credential-desc" data-i18n="cred.ibmDesc">An introductory course on the fundamentals of
+                artificial intelligence, issued by IBM.</p>
+              <!-- EDIT: add date and key learnings here -->
+            </div>
+          </div>
+
+          <!-- Certificate Card 2: ICPC Problem-Solving Contest -->
+          <div class="card credential-card">
+            <div class="credential-img-wrapper">
+              <button class="certificate-trigger" aria-label="View full certificate: ICPC Problem-Solving Contest"
+                data-full-img="assets/certificates/icpc.jpg"
+                data-caption="ICPC Problem-Solving Contest - University level">
+                <img src="assets/certificates/icpc.jpg" alt="ICPC Problem-Solving Contest Certificate"
+                  class="credential-img" loading="lazy">
+                <span class="zoom-badge" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span data-i18n="cred.viewCert">Click to view</span>
+                </span>
+              </button>
+            </div>
+            <div class="credential-info">
+              <div class="credential-provider-row">
+                <span class="credential-provider" data-i18n="cred.providerUniv">Provider: University level</span>
+              </div>
+              <h3 class="credential-title" data-i18n="cred.icpcTitle">ICPC Problem-Solving Contest</h3>
+              <p class="credential-desc" data-i18n="cred.icpcDesc">A certificate for taking part in the university-level
+                ICPC contest, which is about solving algorithmic problems with code.</p>
+              <!-- EDIT: add date and key learnings here -->
+            </div>
+          </div>
+
+          <!-- Certificate Card 3: Certificate of Academic Excellence -->
+          <div class="card credential-card">
+            <div class="credential-img-wrapper">
+              <button class="certificate-trigger" aria-label="View full certificate: Certificate of Academic Excellence"
+                data-full-img="assets/certificates/university-top-students.jpg"
+                data-caption="Certificate of Academic Excellence - Zagazig National University">
+                <img src="assets/certificates/university-top-students.jpg" alt="Certificate of Academic Excellence"
+                  class="credential-img" loading="lazy">
+                <span class="zoom-badge" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span data-i18n="cred.viewCert">Click to view</span>
+                </span>
+              </button>
+            </div>
+            <div class="credential-info">
+              <div class="credential-provider-row">
+                <span class="credential-provider" data-i18n="cred.providerZNU">Provider: Zagazig National
+                  University</span>
+              </div>
+              <h3 class="credential-title" data-i18n="cred.excellenceTitle">Certificate of Academic Excellence</h3>
+              <p class="credential-desc" data-i18n="cred.excellenceDesc">Awarded by the university for ranking among the
+                top students.</p>
+              <!-- EDIT: copy the exact wording, year, and rank from the certificate -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5) SKILLS -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="skills.label">Competencies</span>
+          <h2 class="section-title" data-i18n="skills.title">Skills</h2>
+        </div>
+
+        <div class="skills-wrapper">
+          <!-- Skill Tabs List -->
+          <div class="skills-tabs" role="tablist" aria-label="Skills categories">
+            <button class="tab-button active" role="tab" aria-selected="true" aria-controls="panel-technical"
+              id="tab-technical" data-i18n="skills.tabTech">Technical</button>
+            <button class="tab-button" role="tab" aria-selected="false" aria-controls="panel-soft" id="tab-soft"
+              data-i18n="skills.tabSoft">Soft Skills</button>
+            <button class="tab-button" role="tab" aria-selected="false" aria-controls="panel-tools" id="tab-tools"
+              data-i18n="skills.tabTools">Tools</button>
+            <button class="tab-button" role="tab" aria-selected="false" aria-controls="panel-languages"
+              id="tab-languages" data-i18n="skills.tabLanguages">Languages</button>
+            <button class="tab-button" role="tab" aria-selected="false" aria-controls="panel-exploring"
+              id="tab-exploring" data-i18n="skills.tabExploring">Currently Exploring</button>
+          </div>
+
+          <!-- Tab Panels -->
+          <div class="skills-panels card">
+            <!-- Technical Panel -->
+            <div class="tab-panel active" id="panel-technical" role="tabpanel" aria-labelledby="tab-technical">
+              <div class="skills-badge-grid">
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <i class="devicon-python-plain colored"></i>
+                  </div>
+                  <span class="skill-name">Python</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <i class="devicon-cplusplus-plain colored"></i>
+                  </div>
+                  <span class="skill-name">C++</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <i class="devicon-javascript-plain colored"></i>
+                  </div>
+                  <span class="skill-name">JavaScript</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <i class="devicon-oracle-original colored"></i>
+                    <i class="devicon-microsoftsqlserver-plain colored"></i>
+                  </div>
+                  <span class="skill-name">SQL (Oracle SQL, SQL Server)</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <i class="devicon-pandas-plain colored"></i>
+                    <i class="devicon-numpy-plain colored"></i>
+                  </div>
+                  <span class="skill-name">Pandas & NumPy</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" />
+                      <path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z" />
+                      <path d="M12 5v14" />
+                    </svg>
+                  </div>
+                  <span class="skill-name">Machine Learning</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Soft Skills Panel -->
+            <div class="tab-panel" id="panel-soft" role="tabpanel" aria-labelledby="tab-soft" hidden>
+              <p class="soft-skills-intro" data-i18n="skills.softIntro">
+                Pairing machine learning skills with clear communication, structured problem solving, and on-time
+                delivery, and speaking up early when a problem comes up.
+              </p>
+              <div class="skills-badge-grid">
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                      <circle cx="9" cy="7" r="4" />
+                      <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                  </div>
+                  <span class="skill-name" data-i18n="skills.teamwork">Teamwork</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M2 3h20" />
+                      <path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3" />
+                      <path d="m7 21 5-5 5 5" />
+                    </svg>
+                  </div>
+                  <span class="skill-name" data-i18n="skills.presentations">Presentations</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10" />
+                      <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                  </div>
+                  <span class="skill-name" data-i18n="skills.timeManagement">Time Management</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+                      <path d="M9 18h6" />
+                      <path d="M10 22h4" />
+                    </svg>
+                  </div>
+                  <span class="skill-name" data-i18n="skills.problemSolving">Problem Solving</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+                    </svg>
+                  </div>
+                  <span class="skill-name" data-i18n="skills.communication">Communication</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                    </svg>
+                  </div>
+                  <span class="skill-name" data-i18n="skills.fastLearning">Fast Learning</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools Panel -->
+            <div class="tab-panel" id="panel-tools" role="tabpanel" aria-labelledby="tab-tools" hidden>
+              <div class="skills-badge-grid">
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <i class="devicon-jupyter-plain colored"></i>
+                  </div>
+                  <span class="skill-name">Jupyter Notebook</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                    </svg>
+                  </div>
+                  <span class="skill-name">Google Colab</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <i class="devicon-vscode-plain colored"></i>
+                  </div>
+                  <span class="skill-name">VS Code</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <i class="devicon-git-plain colored"></i>
+                    <i class="devicon-github-original"></i>
+                  </div>
+                  <span class="skill-name">Git & GitHub</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Languages Panel -->
+            <div class="tab-panel" id="panel-languages" role="tabpanel" aria-labelledby="tab-languages" hidden>
+              <div class="skills-badge-grid">
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m5 8 6 6" />
+                      <path d="m4 14 6-6 2-3" />
+                      <path d="M2 5h12" />
+                      <path d="M7 2h1" />
+                      <path d="m22 22-5-10-5 10" />
+                      <path d="M14 18h6" />
+                    </svg>
+                  </div>
+                  <span class="skill-name" data-i18n="skills.arabic">Arabic</span>
+                </div>
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m5 8 6 6" />
+                      <path d="m4 14 6-6 2-3" />
+                      <path d="M2 5h12" />
+                      <path d="M7 2h1" />
+                      <path d="m22 22-5-10-5 10" />
+                      <path d="M14 18h6" />
+                    </svg>
+                  </div>
+                  <span class="skill-name" data-i18n="skills.english">English</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Currently Exploring Panel -->
+            <div class="tab-panel" id="panel-exploring" role="tabpanel" aria-labelledby="tab-exploring" hidden>
+              <div class="skills-badge-grid">
+                <div class="skill-card">
+                  <div class="skill-icon" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path
+                        d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
+                      <path d="M5 3v4" />
+                      <path d="M19 17v4" />
+                      <path d="M3 5h4" />
+                      <path d="M17 19h4" />
+                    </svg>
+                  </div>
+                  <span class="skill-name" data-i18n="skills.exploringDesc">Applied machine learning (NTI course)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6) EXPERIENCE -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="exp.label">Professional Development</span>
+          <h2 class="section-title" data-i18n="exp.title">Experience</h2>
+        </div>
+
+        <div class="card experience-card">
+          <div class="experience-header">
+            <div class="exp-provider-info">
+              <img src="assets/logos/nti.png" alt="NTI Logo" class="exp-logo" width="56" height="56">
+              <div>
+                <h3 class="exp-title" data-i18n="exp.traineeTitle">Machine Learning for Data Analysis Trainee</h3>
+                <p class="exp-provider">
+                  <span data-i18n="exp.provider">National Telecommunication Institute (NTI) • </span>
+                  <a href="https://www.nti.sci.eg/" class="inline-link" target="_blank" rel="noopener noreferrer"
+                    data-i18n="exp.officialSite">Official NTI Website</a>
+                </p>
+              </div>
+            </div>
+            <span class="exp-date" data-i18n="exp.date">Oct 2026 – Present (Ongoing)</span>
+          </div>
+
+          <div class="car-framework">
+            <div class="car-item">
+              <span class="car-label" data-i18n="exp.challengeLabel">Challenge</span>
+              <p class="car-text" data-i18n="exp.challengeText">Learning to turn raw data into predictions through the
+                full machine learning workflow.</p>
+            </div>
+            <div class="car-item">
+              <span class="car-label" data-i18n="exp.actionLabel">Action</span>
+              <p class="car-text" data-i18n="exp.actionText">Worked on a healthcare dataset through every step:
+                cleaning, exploring, training, and evaluating models.</p>
+            </div>
+            <div class="car-item">
+              <span class="car-label" data-i18n="exp.resultLabel">Result</span>
+              <p class="car-text" data-i18n="exp.resultText">Building foundational skills in applied machine learning
+                (ongoing).</p>
+            </div>
+          </div>
+
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7) SERVICES -->
+    <section id="services" class="section services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="services.label">What I Deliver</span>
+          <h2 class="section-title" data-i18n="services.title">Services</h2>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service Card 1: Prediction Models -->
+          <div class="card service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                <polyline points="16 7 22 7 22 13"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title" data-i18n="services.s1Title">Prediction Models</h3>
+            <p class="service-desc" data-i18n="services.s1Desc">
+              Classification and prediction models built from your data, delivered with commented code.
+            </p>
+          </div>
+
+          <!-- Service Card 2: Data Cleaning & Preparation -->
+          <div class="card service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+              </svg>
+            </div>
+            <h3 class="service-title" data-i18n="services.s2Title">Data Cleaning & Preparation</h3>
+            <p class="service-desc" data-i18n="services.s2Desc">
+              Cleaning messy data and preparing it for modeling with pandas and NumPy.
+            </p>
+          </div>
+
+          <!-- Service Card 3: Data Exploration & Charts -->
+          <div class="card service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="service-title" data-i18n="services.s3Title">Data Exploration & Charts</h3>
+            <p class="service-desc" data-i18n="services.s3Desc">
+              Finding patterns in your data and showing them in clear charts.
+            </p>
+          </div>
+
+          <!-- Service Card 4: Model Evaluation & Reports -->
+          <div class="card service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title" data-i18n="services.s4Title">Model Evaluation & Reports</h3>
+            <p class="service-desc" data-i18n="services.s4Desc">
+              Testing how well a model works and explaining the results in plain language so you can decide what to do.
+            </p>
+          </div>
+
+          <!-- Service Card 5: Medical & Health Data -->
+          <div class="card service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+                </path>
+                <path d="M3.22 12H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"></path>
+              </svg>
+            </div>
+            <h3 class="service-title" data-i18n="services.s5Title">Medical & Health Data</h3>
+            <p class="service-desc" data-i18n="services.s5Desc">
+              Models for health and clinic records, as decision support, not a medical diagnosis.
+            </p>
+          </div>
+        </div>
+
+        <div class="services-notes">
+          <p class="services-timing-note" data-i18n="services.timingNote">
+            Timing is agreed before we start, usually around 5 days for simple projects.
+          </p>
+          <p class="services-exclusion-note" data-i18n="services.exclusionNote">
+            Not included: deep learning, cloud hosting, mobile apps, data collection, and medical diagnosis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8) PROJECTS -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="projects.label">Case Studies</span>
+          <h2 class="section-title" data-i18n="projects.title">Projects</h2>
+        </div>
+
+        <!-- Rendered dynamically from PROJECTS array in js/script.js -->
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <!-- 9) ACHIEVEMENTS -->
+    <section id="achievements" class="section achievements-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="achievements.label">Milestones</span>
+          <h2 class="section-title" data-i18n="achievements.title">Achievements</h2>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="card achievement-card">
+            <div class="achievement-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="8" r="7"></circle>
+                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+              </svg>
+            </div>
+            <div class="achievement-details">
+              <h3 class="achievement-title" data-i18n="achievements.item1Title">ICPC Problem-Solving Contest</h3>
+              <p class="achievement-desc" data-i18n="achievements.item1Desc">Participated at university level.</p>
+            </div>
+          </div>
+
+          <!-- EDIT: match the wording to the certificate -->
+          <div class="card achievement-card">
+            <div class="achievement-icon" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                <path d="M4 22h16"></path>
+                <path d="M10 14.66V17c0 .55-.45 1-1 1H7"></path>
+                <path d="M14 14.66V17c0 .55.45 1 1 1h2"></path>
+                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+              </svg>
+            </div>
+            <div class="achievement-details">
+              <h3 class="achievement-title" data-i18n="achievements.item2Title">Academic Excellence Recognition</h3>
+              <p class="achievement-desc" data-i18n="achievements.item2Desc">Ranked among the top students at Zagazig
+                National University and received a certificate for it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10) TESTIMONIALS -->
+    <section id="testimonials" class="section testimonials-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label" data-i18n="testimonials.label">Feedback</span>
+          <h2 class="section-title" data-i18n="testimonials.title">Testimonials</h2>
+        </div>
+
+        <div id="testimonials-grid" class="testimonials-grid"></div>
+
+        <div id="testimonials-empty" class="testimonials-empty">
+          <p class="testimonials-empty-text" data-i18n="testimonials.empty">No testimonials yet.</p>
+          <button id="open-testimonial-btn" class="btn btn-secondary" data-i18n="testimonials.leaveBtn">Leave a
+            Testimonial</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11) CONTACT ("Let's Collaborate") -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-card card">
+          <div class="contact-header">
+            <span class="section-label" data-i18n="contact.label">Get In Touch</span>
+            <h2 class="section-title" data-i18n="contact.title">Let's Collaborate</h2>
+            <p class="contact-subtext" data-i18n="contact.subtext">Send me a short description of your data and what you
+              want to predict.</p>
+          </div>
+
+          <div class="contact-methods">
+            <!-- Email -->
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-item-body">
+                <span class="contact-label" data-i18n="contact.emailLabel">Email</span>
+                <span class="contact-value">alaa.abuafia@gmail.com</span>
+              </div>
+              <a href="mailto:alaa.abuafia@gmail.com" class="btn btn-primary contact-action"
+                data-i18n="contact.sendEmail">Send Email</a>
+            </div>
+
+            <!-- WhatsApp -->
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                  </path>
+                </svg>
+              </div>
+              <div class="contact-item-body">
+                <span class="contact-label" data-i18n="contact.waLabel">WhatsApp</span>
+                <span class="contact-value" data-i18n="contact.waValue">Direct Message</span>
+              </div>
+              <a href="https://wa.me/201270684100?text=Hello%20Alaa%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20project."
+                class="btn btn-secondary contact-action whatsapp-link" target="_blank" rel="noopener noreferrer"
+                data-i18n="contact.chatWithMe">Chat with me</a>
+            </div>
+
+            <!-- LinkedIn -->
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+              </div>
+              <div class="contact-item-body">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">Alaa Ibrahim</span>
+              </div>
+              <a href="https://www.linkedin.com/in/alaa-ibrahim-73326737b/" class="btn btn-secondary contact-action"
+                target="_blank" rel="noopener noreferrer" data-i18n="contact.connect">Connect</a>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-item">
+              <div class="contact-item-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+              </div>
+              <div class="contact-item-body">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">Alaa-Ibrahim3</span>
+              </div>
+              <a href="https://github.com/Alaa-Ibrahim3" class="btn btn-secondary contact-action" target="_blank"
+                rel="noopener noreferrer" data-i18n="contact.viewProfile">View Profile</a>
+            </div>
+          </div>
+
+          <!-- Freelance Platforms Block (Hidden by default) -->
+          <div class="freelance-platforms" hidden>
+            <!-- EDIT: unhide and add links when profiles are ready -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Project Details Modal -->
+  <div id="project-modal" class="modal project-modal" role="dialog" aria-modal="true" aria-label="Project Details"
+    hidden>
+    <div class="modal-backdrop" id="project-modal-backdrop"></div>
+    <div class="modal-dialog project-modal-dialog">
+      <button class="modal-close-btn" id="project-modal-close" aria-label="Close project details">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="modal-body project-modal-body" id="project-modal-body">
+        <!-- Rendered dynamically from PROJECTS array in js/script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonial Submission Modal -->
+  <div id="testimonial-modal" class="modal testimonial-modal" role="dialog" aria-modal="true"
+    aria-label="Add Your Testimonial" hidden>
+    <div class="modal-backdrop" id="testimonial-modal-backdrop"></div>
+    <div class="modal-dialog testimonial-modal-dialog">
+      <button class="modal-close-btn" id="testimonial-modal-close" aria-label="Close testimonial form">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="modal-body testimonial-modal-body">
+        <div class="testimonial-modal-header">
+          <h3 class="modal-form-title" data-i18n="testimonials.modalTitle">Add Your Testimonial</h3>
+          <p class="modal-form-subtitle" data-i18n="testimonials.modalSubtitle">Your feedback will be sent to Alaa for
+            verification and publishing.</p>
+        </div>
+
+        <form id="testimonial-form" class="testimonial-form" novalidate>
+          <!-- Honeypot anti-spam field (legacy) -->
+          <input type="text" name="_gotcha" id="t-gotcha" style="display:none !important;" tabindex="-1"
+            autocomplete="off">
+          <!-- Web3Forms botcheck (must remain unchecked) -->
+          <input type="checkbox" name="botcheck" style="display:none !important;" tabindex="-1" aria-hidden="true">
+
+          <div class="t-form-group">
+            <label for="t-name" class="t-label" data-i18n="testimonials.nameLabel">Your Name *</label>
+            <input type="text" id="t-name" name="name" class="t-input" required placeholder="e.g. Sarah Ahmed"
+              data-i18n-placeholder="testimonials.namePlaceholder">
+          </div>
+
+          <div class="t-form-group">
+            <label for="t-role" class="t-label" data-i18n="testimonials.roleLabel">Role / Title / Company *</label>
+            <input type="text" id="t-role" name="role" class="t-input" required
+              placeholder="e.g. Lead Data Scientist, HealthTech" data-i18n-placeholder="testimonials.rolePlaceholder">
+          </div>
+
+          <div class="t-form-group">
+            <label for="t-linkedin" class="t-label" data-i18n="testimonials.linkedinLabel">LinkedIn Profile URL
+              (optional)</label>
+            <input type="url" id="t-linkedin" name="linkedin" class="t-input"
+              placeholder="https://linkedin.com/in/username" data-i18n-placeholder="testimonials.linkedinPlaceholder">
+          </div>
+
+          <div class="t-form-group">
+            <label class="t-label" data-i18n="testimonials.ratingLabel">Rating *</label>
+            <div class="rating-stars-picker" role="radiogroup" aria-label="Rating out of 5 stars">
+              <button type="button" class="rating-star-btn selected" data-val="1" role="radio" aria-checked="false"
+                aria-label="1 star">★</button>
+              <button type="button" class="rating-star-btn selected" data-val="2" role="radio" aria-checked="false"
+                aria-label="2 stars">★</button>
+              <button type="button" class="rating-star-btn selected" data-val="3" role="radio" aria-checked="false"
+                aria-label="3 stars">★</button>
+              <button type="button" class="rating-star-btn selected" data-val="4" role="radio" aria-checked="false"
+                aria-label="4 stars">★</button>
+              <button type="button" class="rating-star-btn selected" data-val="5" role="radio" aria-checked="true"
+                aria-label="5 stars">★</button>
+            </div>
+            <input type="hidden" name="rating" id="t-rating" value="5">
+          </div>
+
+          <div class="t-form-group">
+            <label for="t-review" class="t-label" data-i18n="testimonials.reviewLabel">Your Review / Testimonial
+              *</label>
+            <textarea id="t-review" name="review" class="t-textarea" rows="4" required
+              placeholder="Share your experience working with Alaa..."
+              data-i18n-placeholder="testimonials.reviewPlaceholder"></textarea>
+          </div>
+
+          <div class="t-form-alerts">
+            <div id="t-success-msg" class="t-alert t-alert-success" hidden data-i18n="testimonials.successMsg">
+              Thank you! Your testimonial has been sent to Alaa for verification and publishing.
+            </div>
+            <div id="t-error-msg" class="t-alert t-alert-error" hidden data-i18n="testimonials.errorMsg">
+              Something went wrong while sending. Please try again or reach out directly by email.
+            </div>
+          </div>
+
+          <button type="submit" id="t-submit-btn" class="btn btn-primary t-submit-btn"
+            data-i18n="testimonials.submitBtn">Submit Testimonial</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certificate Lightbox Modal -->
+  <div id="certificate-modal" class="lightbox-modal" role="dialog" aria-modal="true"
+    aria-label="Certificate Image Preview" hidden>
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-dialog">
+      <button class="lightbox-close-btn" id="lightbox-close" aria-label="Close certificate preview">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div class="lightbox-body">
+        <img src="" alt="" class="lightbox-img" id="lightbox-img">
+        <p class="lightbox-caption" id="lightbox-caption"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Platforms Section -->
+  <section id="platforms" class="section platforms-section" hidden>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label" id="platforms-label" data-i18n="platforms.label">Platforms</span>
+      </div>
+      <p class="platforms-intro" id="platforms-intro" data-i18n="platforms.intro">You can also hire me on these
+        freelance platforms.</p>
+      <!-- Rendered dynamically from PLATFORMS array in js/script.js -->
+      <div class="platforms-grid" id="platforms-grid"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <!-- Logo and Name Column -->
+        <div class="footer-col footer-identity">
+          <a href="#home" class="footer-brand" aria-label="Alaa Ibrahim - Back to top">
+            <img src="assets/logo.png" alt="Alaa Ibrahim Logo" class="footer-logo" height="40"
+              onerror="this.onerror=null; this.src='assets/logo.svg';">
+          </a>
+          <h3 class="footer-name">Alaa Ibrahim.</h3>
+          <p class="footer-role" data-i18n="footer.role">Machine Learning Engineer &middot; 10th of Ramadan, Egypt</p>
+        </div>
+
+        <!-- LET'S CONNECT Column -->
+        <div class="footer-col">
+          <span class="footer-label" data-i18n="footer.connectLabel">LET&apos;S CONNECT</span>
+          <p class="footer-text" data-i18n="footer.connectText">
+            I&apos;m always open to talking about machine learning projects, health and business data, and ideas for
+            turning data into predictions people can use.
+          </p>
+          <div class="footer-social-icons">
+            <a href="mailto:alaa.abuafia@gmail.com" class="footer-social-btn" aria-label="Email Alaa Ibrahim">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+            <a href="https://wa.me/201270684100?text=Hello%20Alaa%2C%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20talk%20about%20a%20project."
+              class="footer-social-btn whatsapp-link" target="_blank" rel="noopener noreferrer"
+              aria-label="Chat on WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path
+                  d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                </path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/alaa-ibrahim-73326737b/" class="footer-social-btn" target="_blank"
+              rel="noopener noreferrer" aria-label="LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+            <a href="https://github.com/Alaa-Ibrahim3" class="footer-social-btn" target="_blank"
+              rel="noopener noreferrer" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- WHO AM I? Column -->
+        <div class="footer-col">
+          <span class="footer-label" data-i18n="footer.whoLabel">WHO AM I?</span>
+          <p class="footer-text" data-i18n="footer.whoText">
+            I&apos;m Alaa Ibrahim, a machine learning engineer who builds models that turn health and business data into
+            predictions people can understand and use, with a Medical Informatics background.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="js/script.js"></script>
+  <script src="js/testimonial-form.js"></script>
+</body>
+
+</html>
